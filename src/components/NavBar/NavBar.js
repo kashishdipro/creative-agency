@@ -16,7 +16,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['Home', 'Our Portfolio', 'Our Team', 'Contact Us'];
 
 export default function NavBar(props) {
   const { window } = props;
@@ -47,7 +47,10 @@ export default function NavBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ 
+      display: 'flex',
+      backgroundColor: 'primary.yellow',
+    }}>
       <CssBaseline />
       <AppBar component="nav" sx={{
         backgroundColor: 'transparent',
@@ -77,7 +80,7 @@ export default function NavBar(props) {
                 </Button>
                 ))}
                 <Button sx={{
-                    bgcolor: 'primary.green'
+                    bgcolor: 'primary.blue'
                 }}>Login</Button>
             </Box>
             </Toolbar>

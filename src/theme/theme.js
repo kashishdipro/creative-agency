@@ -2,9 +2,9 @@ import {createTheme} from '@mui/material';
 export const theme = createTheme({
     palette: {
         primary: {
-            main: '#111430',
-            yellow: '#FBD062',
-            green: '#7AB259',
+            main: 'rgba(71, 71, 71, 1)',
+            yellow: 'rgba(251, 208, 98, 1)',
+            blue: 'rgba(17, 20, 48, 1)',
         },
     },
     components: {
