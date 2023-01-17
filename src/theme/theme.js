@@ -5,6 +5,7 @@ export const theme = createTheme({
             main: 'rgba(71, 71, 71, 1)',
             yellow: 'rgba(251, 208, 98, 1)',
             blue: 'rgba(17, 20, 48, 1)',
+            green: 'rgba(122, 178, 89, 1)',
         },
     },
     components: {
